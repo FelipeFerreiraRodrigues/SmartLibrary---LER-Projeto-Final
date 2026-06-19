@@ -28,7 +28,11 @@
 
 - https://docs.google.com/document/d/1gEkKwmalr_-uOFeyLcoOqTpf5qjKjKeiD20Wkq7_4D4/edit?usp=sharing
 
-### 2.3 - Perfil dos Usuários
+### 2.3 - Prototipagem
+
+<img width="4053" height="2721" alt="rn_image_picker_lib_temp_2195b9b0-2ad7-4c07-b7df-24685331028b" src="https://github.com/user-attachments/assets/3e1e3d9f-90be-44bd-acb9-0da2ff3afabf" />
+
+### 2.4 - Perfil dos Usuários
 
 #### Operador
 
