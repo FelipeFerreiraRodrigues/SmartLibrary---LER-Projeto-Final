@@ -74,10 +74,13 @@ def tela_cadastro():
             print("[ERRO] CPF inválido!")
         while True:
             nascimento = input("Digite sua Data de Nascimento (AAAA/MM/DD): ")
+            data_year = nascimento.strip('/')
             try:
                 data_nasc = datetime.strptime(nascimento, "%Y/%m/%d").date()
-                if data_nasc > datetime.now().date():
+                if data_nasc >= datetime.now().date():
                     print("[ERRO] Data impossível!")
+                elif data_year <= "1908":
+                    print("[ERRO] Velho Demais MALUCO! Você não é Ethel Caterham")
                 else:
                     break
             except ValueError:
